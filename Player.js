@@ -30,7 +30,7 @@ function Player(x, y){
     Entity.call(this, x, y, 45, 92, "#A69789", true, true, true);
     
     // Set the movement speed
-    this.movementSpeed = 7;
+    this.movementSpeed = 55;
     
     // Set the number of frames spent jumping
     this.framesSpentJumping = 0;
